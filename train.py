@@ -62,7 +62,7 @@ parser.add_argument("--save-path",
 
 parser.add_argument("--fast",
 					action='store_true',
-					help="Use fast graph wavelets with Chebyshev polynomial approximation")
+					help="Use fast graph wavelets with Chebyshev polynomial approximation.")
 
 parser.add_argument("--approximation-order",
 					type=int,

@@ -28,22 +28,22 @@ tensorflow-base           2.0.0
 ### 输入参数
 
 ```
-  --dataset				STR		Which dataset to use.				'cora', 'citeseer' or 'pubmed'. Default is 'cora'.
-  --save-path			STR		Target directory for saving models.	Default is './models'
+  --dataset		STR	Which dataset to use.			'cora', 'citeseer' or 'pubmed'. Default is 'cora'.
+  --save-path		STR	Target directory for saving models.	Default is './models'
 ```
 
 ### 模型参数
 
 ```
-  --epochs				INT		Number of training epochs.			Default is 200.
-  --hidden				INT		Number of units in hidden layer.	Default is 16.
-  --weight-decay		FLOAT	Adam weight decay.					Default is 5e-4.
-  --learning-rate		FLOAT	Learning rate.						Default is 0.01.
-  --dropout				FLOAT	Dropout probability.				Default is 0.5.
-  --approximation-order	INT		Chebyshev polynomial order.			Default is 3.
-  --threshold			FLOAT	Sparsification parameter.			Default is 1e-4.
-  --scale				FLOAT	Scaling parameter.					Default is 1.0.
-  --fast				BOOL	Use fast graph wavelets with Chebyshev polynomial approximation.
+  --epochs		INT	Number of training epochs.		Default is 200.
+  --hidden		INT	Number of units in hidden layer.	Default is 16.
+  --weight-decay	FLOAT	Adam weight decay.			Default is 5e-4.
+  --learning-rate	FLOAT	Learning rate.				Default is 0.01.
+  --dropout		FLOAT	Dropout probability.			Default is 0.5.
+  --approximation-order	INT	Chebyshev polynomial order.		Default is 3.
+  --threshold		FLOAT	Sparsification parameter.		Default is 1e-4.
+  --scale		FLOAT	Scaling parameter.			Default is 1.0.
+  --fast		BOOL	Use fast graph wavelets with Chebyshev polynomial approximation.
 ```
 
 ## 例子
