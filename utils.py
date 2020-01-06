@@ -1,7 +1,5 @@
 from sklearn.preprocessing import normalize
 import numpy as np
-import pickle as pkl
-import networkx as nx
 from scipy.special import iv
 import scipy.sparse as sp
 from scipy.sparse.linalg.eigen.arpack import eigsh

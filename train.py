@@ -48,7 +48,7 @@ parser.add_argument("--scale",
 parser.add_argument("--weight-decay",
 					type=float,
 					default=5e-4,
-					help="Adam weight decay. Default is 1e-5.")
+					help="Adam weight decay. Default is 5e-4.")
 
 parser.add_argument("--threshold",
 					type=float,
@@ -58,7 +58,7 @@ parser.add_argument("--threshold",
 parser.add_argument("--save-path",
 					nargs="?",
 					default="./models",
-					help="Target classes csv.")
+					help="Target directory for saving models.")
 
 parser.add_argument("--fast",
 					action='store_true',
