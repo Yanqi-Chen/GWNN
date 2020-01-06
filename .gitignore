@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Visual Studio Code
+.vscode/
+
+# Models and statistics
+models/*
+runs/*
+
+# Perf file
+*.txt
